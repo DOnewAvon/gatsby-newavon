@@ -6,8 +6,7 @@ import headerStyles from "./header.module.css"
 
 
 
-{/*export default props => */}
-export default () =>
+export default props => 
 
 <div className="no-reverse-bg avon-header">
   <div className="row px-0 mx-0">
