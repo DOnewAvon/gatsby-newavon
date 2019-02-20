@@ -1,0 +1,49 @@
+.grey-bg {
+  background-color: #eee;
+  height: 100%;
+}
+.small-link-utility {
+  line-height: normal;
+}
+.primary-nav__ghost {
+  width: auto !important;
+}
+.navbar--utility-2 {
+  padding: 1.4rem 1.5rem;
+  min-height: 48px;
+}
+@media (min-width: 385px) {
+  .navbar--primary-nav .primary-nav__logo {
+    margin-left: auto;
+  }
+}
+@media (max-width: 767px) {
+  .navbar--primary-nav {
+    padding: 0.5rem 1.5rem 2.5rem !important;
+  }
+}
+@media (min-width: 768px) {
+  .primary-nav__cart {
+    margin-right: 1.6rem !important;
+  }
+}
+@media (max-width: 939px) {
+  .primary-nav__logo img {
+    height: 40px !important;
+   }  
+}
+@media only screen and (min-device-width : 768px) and (max-device-width : 939px) and (orientation : portrait) {
+  .primary-nav__logo img {
+    padding-left: 270px;
+   }  
+}
+@media (max-width: 414px) {
+  .container--page {
+    margin-top: 0px !important;
+   }  
+}
+@media (max-width: 768px) {
+  .container-ipad-portrait {
+    width: auto;
+   }
+}

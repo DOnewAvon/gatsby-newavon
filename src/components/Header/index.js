@@ -2,7 +2,7 @@ import React from 'react'
 import Link from 'gatsby-link'
 import './custom.scss'
 import logo from '../images/logos/your-avon-20.png'
-import headerStyles from "./header.module.css"
+import  "../LeadPromo/styles.com"
 
 
 
@@ -29,7 +29,7 @@ export default props =>
         <nav className="navbar navbar--primary-nav navbar-default border-bottom d-flex flex-wrap align-items-center justify-content-center" role="navigation">
           {/*ghost placeholder - this invisible div holds a relative position for utility nav on desktop */}
           <style media="screen">
-            {headerStyles.container}
+          
           </style>
           <div className="primary-nav__ghost" style={{width:'auto'}} >
           </div>
