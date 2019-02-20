@@ -15,11 +15,11 @@ export default props =>
       <header className="global-header global-header--simple page-signin border-0" role="banner">
           {/*top bar */}
           <nav className="navbar navbar-inverse navbar-static-top navbar--utility-2 border-0 d-flex">
-            <Link  className="link-reverse-plain small small-link-utility text-uppercase" href="#">
+            <Link  className="link-reverse-plain small small-link-utility text-uppercase" to="#">
               <strong>Avon.com
               </strong>
             </Link>
-            <Link  className="link-reverse-plain small small-link-utility underline ml-auto" href="#">Ver en Español
+            <Link  className="link-reverse-plain small small-link-utility underline ml-auto" to="#">Ver en Español
             </Link>
           </nav>
       </header>
@@ -31,7 +31,7 @@ export default props =>
           <style media="screen">
             {headerStyles.container}
           </style>
-          <div className="primary-nav__ghost" >
+          <div className="primary-nav__ghost" style={{width:'auto'}} >
           </div>
           {/*search */}
           <div className="primary-nav__search">
@@ -40,14 +40,14 @@ export default props =>
           </div>
           {/*logo */}
           <div className="primary-nav__logo flex-fill">
-            <Link  href="/">
+            <Link  to="/">
               <img src={logo} title="YourAvon 2.0" alt="YourAvon 2.0" />  
             </Link>
           </div>
           {/*order / cart */}
           <div className="primary-nav__cart">
             <span className="sign-in-link">
-              <Link  href="#" className="text-black small">
+              <Link  to="#" className="text-black small">
                 <strong>SIGN IN
                 </strong>
               </Link>

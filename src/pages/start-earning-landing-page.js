@@ -11,7 +11,7 @@ const sectionStyle = {
   console.log(styles)
 export default () => <Layout>
 <LeadPromo />
-<section class="container container--page p-0" style={sectionStyle}>
+<section className="container container--page p-0" style={sectionStyle}>
     <GrayFWBlk />
 </section>
 </Layout>
