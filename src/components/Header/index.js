@@ -2,7 +2,7 @@ import React from 'react'
 import Link from 'gatsby-link'
 import './custom.scss'
 import logo from '../images/logos/your-avon-20.png'
-import  "../LeadPromo/styles.com"
+import  "../LeadPromo/styles.css"
 
 
 
