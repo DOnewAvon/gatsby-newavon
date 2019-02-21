@@ -6,8 +6,8 @@
   "license": "MIT",
   "scripts": {
     "build": "gatsby build",
-    "develop": "gatsby develop",
-    "start": "npm run develop",
+    "develop": "gatsby develop -H 0.0.0.0 -p 8080",
+    "start": "npm run develop -H 0.0.0.0 -p 8080",
     "serve": "gatsby serve",
     "test": "echo \"Write tests! -> https://gatsby.app/unit-testing\""
   },
