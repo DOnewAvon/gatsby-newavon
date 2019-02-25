@@ -1,6 +1,29 @@
 {
+<<<<<<< HEAD
     "buildpacks": [
      { "url": "heroku/nodejs" },
      { "url": "https://github.com/heroku/heroku-buildpack-static" }
     ]
 }
+=======
+  "addons": [
+
+  ],
+  "buildpacks": [
+    {
+      "url": "heroku/nodejs"
+    }
+  ],
+  "env": {
+  },
+  "formation": {
+    "web": {
+      "quantity": 1
+    }
+  },
+  "name": "gatsby-newavon",
+  "scripts": {
+  },
+  "stack": "heroku-18"
+}
+>>>>>>> b0e6f66426d735bc265673f9f4870dd9967d75bf
