@@ -1,0 +1,35 @@
+ /*Home page carousel modal styles */
+ #carousel-home-page-modal .carousel-inner {
+    padding-bottom: 25px;
+  }
+  #carousel-home-page-modal .carousel-indicators {
+    bottom: -25px;
+  }
+  #carousel-home-page-modal .carousel-indicators li {
+    margin: 3px;
+  }
+  #carousel-home-page-modal .carousel-control .lt-right {
+    right: 0;
+  }
+  #carousel-home-page-modal .carousel-control .lt-left {
+    left: 0;
+  }
+  #myModalOnlineStore .modal-header, #myModalOnlineStore .modal-footer {
+    border: 0;
+  }
+  #myModalOnlineStore.modal-dialog {
+    position:fixed;
+  }
+  @media (max-width: 640px) {
+    #myModalOnlineStore .btn {
+      display: initial;
+    }
+  }
+  @media screen and (max-width: 768px) {
+    #carousel-home-page-modal .carousel-indicators {
+      bottom: -25px;
+    }
+    #carousel-home-page-modal .copy-block {
+      min-height: 135px;
+    }
+  }

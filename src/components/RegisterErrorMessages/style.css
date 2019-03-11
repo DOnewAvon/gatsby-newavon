@@ -1,0 +1,4 @@
+/* We need this new style for the password icon toggle to work */
+.form-control-feedback {
+    pointer-events:auto !important;
+  }

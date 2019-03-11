@@ -1,0 +1,2 @@
+(window.webpackJsonp=window.webpackJsonp||[]).push([[2],{137:function(e,n,a){"use strict";a.r(n);var t=a(0),c=a.n(t),l=a(153),o=a(152),r=a.n(o);n.default=function(){return c.a.createElement(l.a,null,c.a.createElement("section",{className:"container container--page p-0"},c.a.createElement("h1",null,"Welcome!"),c.a.createElement(r.a,{to:"/page-2"},"Page 2 ")))}}}]);
+//# sourceMappingURL=component---src-pages-404-js-096c52ffe6a915710af2.js.map

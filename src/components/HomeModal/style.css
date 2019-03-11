@@ -1,0 +1,70 @@
+@media (min-width: 1200px) {
+    .arrow {
+      margin-top: 150px;
+    }
+    .arrow-left {
+      margin-left: 0px;
+    }
+    .arrow-right {
+      margin-left: -34px;
+    }
+  }
+  @media (min-width: 992px) and (max-width: 1199px) {
+    .arrow {
+      margin-top: 120px;
+    }
+    .arrow-left {
+      margin-left: 0 }
+    .arrow-right {
+      margin-left: -35px;
+    }
+  }
+  @media (min-width: 768px) and (max-width: 991px) {
+    .arrow {
+      margin-top: 80px;
+    }
+    .arrow-left {
+      margin-left: 0 }
+    .arrow-right {
+      margin-left: -35px;
+    }
+  }
+  @media (max-width: 767px) {
+    .arrow {
+      margin-top: 200px;
+    }
+    .arrow-left {
+      margin-left: 0 }
+    .arrow-right {
+      margin-left: -35px;
+    }
+  }
+  .carousel-control {
+    opacity: 1 !important }
+  .lt-carat-left, .lt-carat-right {
+    visibility: hidden;
+  }
+  .carousel-inner {
+    width: 100% !important;
+  }
+  /*Home page carousel */
+  #carousel-home-page .carousel-inner {
+    padding-bottom: 25px;
+  }
+  #carousel-home-page .carousel-indicators {
+    bottom: -25px;
+  }
+  #carousel-home-page .carousel-indicators li {
+    margin: 3px;
+  }
+  #carousel-home-page .carousel-control .lt-right {
+    right: 0;
+  }
+  #carousel-home-page .carousel-control .lt-left {
+    left: 0;
+  }
+  @media screen and (max-width: 768px) {
+    #carousel-home-page .carousel-indicators {
+      bottom: -25px;
+    }
+  }
