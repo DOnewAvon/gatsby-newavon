@@ -4,7 +4,7 @@ import Layout from "../components/Layout"
 const TwoColPage = () => <Layout>
     <div>
         <aside className="col-md-6" role="complementary">
-            <p><img className="img-responsive" alt=" " src="http://via.placeholder.com/800x800"/></p>
+            <p><img className="img-responsive" alt=" " src="https://via.placeholder.com/800x800"/></p>
         </aside>
         <main className="col-md-6" role="main">
             <h1>12 Columns - Inner 6x6</h1>
