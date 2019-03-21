@@ -9,7 +9,7 @@ export default () => <Layout>
 			<div className="row">
 				<div className="col-md-10 col-md-offset-1">
 					<p>
-						<Link onclick="javascript:window.history.go(-1);">
+						<Link onClick="javascript:window.history.go(-1);">
 <span className="lt-icon lt-left lt-medium mr-2"></span>
 							<span className="small">Profile</span>
 						</Link>

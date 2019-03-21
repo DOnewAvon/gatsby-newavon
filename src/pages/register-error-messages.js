@@ -26,9 +26,9 @@ export default () => <Layout>
                   <span className="alert-main  text-left">
                     <span className="alert-headline">An account with that email address exists.
                       <br/>
-                      <span style={{fontWeight:'normal'}}>Please enter a different email address or access your account from the 
+                      <span style={{fontWeight:'normal'}}>Please enter a different email address or access your account from the&nbsp; 
                         <Link to="#">
-                          <span className="link-underline" style={{color:'#d6321c'}}>Login page
+                           <span className="link-underline" style={{color:'#d6321c'}}>Login page
                           </span>
                         </Link>.
                       </span>

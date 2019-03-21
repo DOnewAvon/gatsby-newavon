@@ -7,7 +7,7 @@ export default () => <Layout>
     <div className="row">
 				<div className="col-md-10 col-md-offset-1">
 					<p>
-						<Link onclick="javascript:window.history.go(-1);">
+						<Link onClick="javascript:window.history.go(-1);">
 <span className="lt-icon lt-left lt-medium mr-2"></span>
 							<span className="small">Support</span>
 						</Link>
@@ -54,8 +54,8 @@ export default () => <Layout>
                                             <div className="col-md-6 mt-1 mt-md-0">
                                                 <label className="control-label">Choose a Topic*</label>
                                                 <div className="btn-group bootstrap-select form-control form-inline ng-pristine ng-untouched ng-invalid ng-invalid-required ng-valid ng-valid-required">
-                                                <button type="button" className="btn dropdown-toggle bs-placeholder btn-select" data-toggle="dropdown" role="button" title="Select a Topic"><span className="filter-option pull-left">Select a Topic</span><span className="bs-caret"><span className="caret"></span></span></button>
-                                                <div className="dropdown-menu open" role="combobox" style={{maxHeight: 157 + 'px', overflow:'hidden'}}>
+                                                <button type="button" className="btn dropdown-toggle bs-placeholder btn-select" data-toggle="dropdown"  title="Select a Topic"><span className="filter-option pull-left">Select a Topic</span><span className="bs-caret"><span className="caret"></span></span></button>
+                                                <div className="dropdown-menu open" style={{maxHeight: 157 + 'px', overflow:'hidden'}}>
                                                     <ul className="dropdown-menu inner" role="listbox" aria-expanded="false" style={{maxHeight: 156 + 'px', overflowY: 'auto'}}>
                                                         <li data-original-index="1"><Link tabindex="0" className="ng-binding ng-scope" data-tokens="null" role="option" aria-disabled="false" aria-selected="false"><span className="text">Orders</span><span className="lt-icon glyphicon-ok check-mark"></span></Link></li>
                                                         <li data-original-index="2"><Link tabindex="0" className="ng-binding ng-scope" data-tokens="null" role="option" aria-disabled="false" aria-selected="false"><span className="text">Leadership</span><span className="lt-icon glyphicon-ok check-mark"></span></Link></li>
@@ -70,8 +70,8 @@ export default () => <Layout>
                                             <div className="col-md-6 mt-5 mt-md-0">
                                                 <label className="control-label">Choose a Subtopic*</label>
                                                 <div className="btn-group bootstrap-select form-control form-inline ng-pristine ng-untouched ng-invalid ng-invalid-required ng-valid ng-valid-required">
-                                                <button type="button" className="btn dropdown-toggle bs-placeholder btn-select" data-toggle="dropdown" role="button" title="Choose a Subtopic"><span className="filter-option pull-left">Choose a Subtopic</span><span className="bs-caret"><span className="caret"></span></span></button>
-                                                <div className="dropdown-menu open" role="combobox" style={{maxheight: 157+'px', overflow: 'hidden'}}>
+                                                <button type="button" className="btn dropdown-toggle bs-placeholder btn-select" data-toggle="dropdown"  title="Choose a Subtopic"><span className="filter-option pull-left">Choose a Subtopic</span><span className="bs-caret"><span className="caret"></span></span></button>
+                                                <div className="dropdown-menu open" style={{maxheight: 157+'px', overflow: 'hidden'}}>
                                                     <ul className="dropdown-menu inner" role="listbox" aria-expanded="false" style={{maxHeight: 156 +'px', overflowY:'auto'}}>
                                                         <li data-original-index="1"><Link tabindex="0" className="ng-binding ng-scope" data-tokens="null" role="option" aria-disabled="false" aria-selected="false"><span className="text">Hold Order</span><span className="lt-icon glyphicon-ok check-mark"></span></Link></li>
                                                         <li data-original-index="2"><Link tabindex="0" className="ng-binding ng-scope" data-tokens="null" role="option" aria-disabled="false" aria-selected="false"><span className="text">Fundraiser Order</span><span className="lt-icon glyphicon-ok check-mark"></span></Link></li>

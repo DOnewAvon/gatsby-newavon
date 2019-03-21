@@ -3,7 +3,7 @@ import Layout from "../components/Layout"
 import Link from 'gatsby-link'
 
   
-export default () => <Layout>
+const OLFundraiserReg = () => (<Layout>
 	
 	
 	<div className="container container--page">
@@ -273,7 +273,7 @@ export default () => <Layout>
 															</Link>
 														</div>
 														<div className="col-sm-12 col-md-6 col-md-pull-6 m-top-xs-20">
-															<Link data-toggle="" data-target="" onclick="" to="">
+															<Link data-toggle="" data-target="" onClick="" to="">
 																<button className="btn btn-default upload-result btn-block">Cancel</button>
 															</Link>
 														</div>
@@ -375,4 +375,6 @@ export default () => <Layout>
 				</div>
 			</div>
 		</div>
-	</Layout>
+	</Layout>)
+
+export default OLFundraiserReg
