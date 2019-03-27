@@ -9,8 +9,8 @@
     "develop": "gatsby develop",
     "start": "npm run develop",
     "serve": "gatsby serve",
-    "heroku-postbuild": "gatsby build",
-    "test": "echo \"Write tests! -> https://gatsby.app/unit-testing\""
+    "test": "echo \"Write tests! -> https://gatsby.app/unit-testing\"",
+    "deploy": "gatsby-plugin-s3 deploy"
   },
   "dependencies": {
     "gatsby": "^2.1.2",
@@ -26,7 +26,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/gatsbyjs/gatsby-starter-hello-world"
+    "url": "https://github.com/DOnewAvon/gatsby-newavon"
   },
   "bugs": {
     "url": "https://github.com/gatsbyjs/gatsby/issues"

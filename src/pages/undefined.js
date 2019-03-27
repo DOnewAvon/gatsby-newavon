@@ -5,10 +5,11 @@ import Link from "gatsby-link"
 
 
 export default ({data}) => {
+    const title = data.site.siteMetadata.title
     return (
         <Layout>
             <section className="container container--page p-0">
-
+            <h4>{title}</h4>
             <ul>
             {data.allSitePage.edges.map(({node}, i) => (
                 <li><Link to={data.allSitePage.edges[i].node.path}>{data.allSitePage.edges[i].node.path}</Link></li>
@@ -22,12 +23,20 @@ export default ({data}) => {
 
 export const query = graphql`
     query {
+        site {
+            siteMetadata {
+              title
+            }
+        }
         allSitePage {
-            edges {
-              node {
-                path
-              }
+          totalCount
+          edges {
+            node {
+              path
+              jsonName
+              componentChunkName
             }
           }
+        }
     }
 `

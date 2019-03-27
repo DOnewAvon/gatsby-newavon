@@ -1,6 +1,6 @@
 module.exports = {
     siteMetadata: {
-        title: "Avon page",
+        title: "Welcome to Avon",
         description: "This is a Avon page.",
       },
       plugins: [
@@ -16,7 +16,7 @@ module.exports = {
         {
             resolve: `gatsby-plugin-s3`,
             options: {
-                bucketName: 'my-website-bucket'
+                bucketName: 'test-avon-bucket'
             },
         },
     ],
